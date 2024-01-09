@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+h3 {
+    border-bottom: 3px dotted black;
+    margin: 20px 500px;
+}
 #me {
     height: 450px;
     width: auto;
