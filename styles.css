@@ -17,15 +17,17 @@
 
 #link-heading {
     background-color: #CA6869;
-    margin: 10px 500px ;
+    margin: 10px auto;
     padding: 15px;
     font-size: large;
     color: white;
     /* border: 3px solid #202E51; */
     border-radius: 5px;
+    width: fit-content;
+    justify-self: center;
 }
 .img-flank {
-    height: 600px;
+    height: 520px;
     width: auto;
     opacity: 50%;
 }
@@ -51,5 +53,7 @@
     background-color: whitesmoke  ;
     /* border: 3px solid #202E51; */
     color: #202E51;
+    text-decoration: none;
+    width: 150px;
 }
 body {background-color: #E7A89F ;}
