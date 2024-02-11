@@ -57,3 +57,7 @@
     width: 150px;
 }
 body {background-color: #E7A89F ;}
+
+.socials,.websites{
+    margin: 20px auto;
+}
