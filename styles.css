@@ -1,75 +1,69 @@
-.header {
-    text-align: center;
-    border-radius: 5px;
-    background-color: whitesmoke;
-    /* border: 5px solid #202E51 ; */
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 /* bright pink colour : #CA6869 */
 /* vomit colour #BACFC0  */
-#me {
-    height: 450px;
-    width: auto;
-    border-radius: 5px;
-}
 
-
-#link-heading {
-    background-color: #CA6869;
-    margin: 10px auto;
-    padding: 15px;
-    font-size: large;
-    color: white;
-    /* border: 3px solid #202E51; */
-    border-radius: 5px;
-    width: fit-content;
-    justify-self: center;
-}
-
-.img-flank {
-    height: 520px;
-    width: auto;
-    opacity: 50%;
+body {
+    background-color: #E7A89F;
 }
 
 #photo-frame {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .img-flank {
+        height: 520px;
+        width: auto;
+        opacity: 50%;
+    }
+
+    .header {
+        text-align: center;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        /* border: 5px solid #202E51 ; */
+        padding-left: 10px;
+        padding-right: 10px;
+
+        #me {
+            height: 450px;
+            width: auto;
+            border-radius: 5px;
+        }
+    }
 }
 
 .list {
     text-align: center;
-}
-
-.links {
-    display: flex;
-    justify-content: space-evenly;
-    flex: 25%;
-}
-
-.links a {
-    /* margin: 3px ; */
-    padding: 50px;
-    border-radius: 7px;
-    background-color: whitesmoke;
-    /* border: 3px solid #202E51; */
-    color: #202E51;
-    text-decoration: none;
-    width: 150px;
-}
-
-body {
-    background-color: #E7A89F;
-}
-
-.socials,
-.websites {
     margin: 20px auto;
-}
 
+
+    #link-heading {
+        background-color: #CA6869;
+        margin: 10px auto;
+        padding: 15px;
+        font-size: large;
+        color: white;
+        /* border: 3px solid #202E51; */
+        border-radius: 5px;
+        width: fit-content;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly; 
+    }
+
+    .links a {
+        /* margin: 3px ; */
+        padding: 50px;
+        border-radius: 7px;
+        background-color: whitesmoke;
+        /* border: 3px solid #202E51; */
+        color: #202E51;
+        text-decoration: none;
+        width: 150px;
+    }
+}
 
 @media (max-width: 800px) {
     .links {
@@ -97,4 +91,3 @@ body {
         width: auto;
     }
 } */
-
