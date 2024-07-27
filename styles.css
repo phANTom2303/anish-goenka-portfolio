@@ -2,7 +2,12 @@
 /* vomit colour #BACFC0  */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,321;1,321&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
+@font-face {
+    font-family: "calculator-font";
+    src: url('./digital-7.ttf')format('truetype');
+}
 
 body {
     background-color: #E7A89F;
@@ -53,7 +58,7 @@ body {
         background-color: #CA6869;
         margin: 10px auto;
         padding: 15px;
-        font-size: large;
+        font-size: x-large;
         color: white;
         /* border: 3px solid #202E51; */
         border-radius: 5px;
@@ -61,7 +66,7 @@ body {
 
         /* Fonts :  */
         font-family: "Josefin Sans",
-        sans-serif;
+            sans-serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
@@ -83,6 +88,7 @@ body {
         width: 150px;
         flex-grow: 1;
         margin: 0 15px;
+        font-size: 20px;
 
         /* Fonts  : */
 
@@ -100,6 +106,14 @@ body {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
+}
+
+#calculator:hover {
+    font-family: "calculator-font", "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #667665;
+    color: black;
 }
 
 @media (max-width: 800px) {
