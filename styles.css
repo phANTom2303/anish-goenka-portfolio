@@ -1,6 +1,8 @@
 /* bright pink colour : #CA6869 */
 /* vomit colour #BACFC0  */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,321;1,321&display=swap');
+
 
 body {
     background-color: #E7A89F;
@@ -12,7 +14,7 @@ body {
     align-items: center;
 
     .img-flank {
-        height: 520px;
+        height: 480px;
         width: auto;
         opacity: 50%;
     }
@@ -25,11 +27,20 @@ body {
         padding-left: 10px;
         padding-right: 10px;
 
+
         #me {
-            height: 450px;
+            height: 400px;
             width: auto;
             border-radius: 5px;
         }
+
+        /* Fonts :  */
+
+        font-family: "Josefin Sans",
+        sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
     }
 }
 
@@ -47,11 +58,18 @@ body {
         /* border: 3px solid #202E51; */
         border-radius: 5px;
         width: fit-content;
+
+        /* Fonts :  */
+        font-family: "Josefin Sans",
+        sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
     }
 
     .links {
         display: flex;
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
     }
 
     .links a {
@@ -65,10 +83,17 @@ body {
         width: 150px;
         flex-grow: 1;
         margin: 0 15px;
+
+        /* Fonts  : */
+
+        font-family: "Montserrat", sans-serif;
+        /* font-optical-sizing: auto; */
+        font-weight: 403;
+        font-style: normal;
     }
 }
 
-#terminal-games:hover{
+#terminal-games:hover {
     background-color: black;
     color: #85DA32;
     text-align: center;
