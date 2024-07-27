@@ -116,6 +116,16 @@ body {
     color: black;
 }
 
+#portfolio:hover {
+    background-color: #CA6869;
+    color: white;
+    font-family: "Josefin Sans",
+        sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 @media (max-width: 800px) {
     .links {
         flex-direction: column;
