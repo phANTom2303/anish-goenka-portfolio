@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,321;1,321&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 @font-face {
     font-family: "calculator-font";
@@ -124,6 +125,14 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+#mini-games:hover {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    background-color: #1B1A55;
 }
 
 @media (max-width: 800px) {
