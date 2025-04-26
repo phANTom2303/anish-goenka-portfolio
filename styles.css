@@ -1,154 +1,162 @@
 /* bright pink colour : #CA6869 */
 /* vomit colour #BACFC0  */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,321;1,321&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,321;1,321&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
 
 @font-face {
-    font-family: "calculator-font";
-    src: url('./digital-7.ttf')format('truetype');
+  font-family: "calculator-font";
+  src: url("./digital-7.ttf") format("truetype");
 }
 
 body {
-    background-color: #E7A89F;
+  background-color: #e7a89f;
 }
 
 #photo-frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    .img-flank {
-        height: 480px;
-        width: auto;
-        opacity: 50%;
-    }
+  .img-flank {
+    height: 480px;
+    width: auto;
+    opacity: 50%;
+  }
 
-    .header {
-        text-align: center;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        /* border: 5px solid #202E51 ; */
-        padding-left: 10px;
-        padding-right: 10px;
-
-
-        #me {
-            height: 400px;
-            width: auto;
-            border-radius: 5px;
-        }
-
-        /* Fonts :  */
-
-        font-family: "Josefin Sans",
-        sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-    }
-}
-
-.list {
+  .header {
     text-align: center;
-    margin: 20px auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    /* border: 5px solid #202E51 ; */
+    padding-left: 10px;
+    padding-right: 10px;
 
-
-    #link-heading {
-        background-color: #CA6869;
-        margin: 10px auto;
-        padding: 15px;
-        font-size: x-large;
-        color: white;
-        /* border: 3px solid #202E51; */
-        border-radius: 5px;
-        width: fit-content;
-
-        /* Fonts :  */
-        font-family: "Josefin Sans",
-            sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
+    #me {
+      height: 400px;
+      width: auto;
+      border-radius: 5px;
     }
 
-    .links {
-        display: flex;
-        justify-content: space-evenly;
-    }
+    /* Fonts :  */
 
-    .links a {
-        /* margin: 3px ; */
-        padding: 50px;
-        border-radius: 7px;
-        background-color: whitesmoke;
-        /* border: 3px solid #202E51; */
-        color: #202E51;
-        text-decoration: none;
-        width: 150px;
-        flex-grow: 1;
-        margin: 0 15px;
-        font-size: 20px;
-
-        /* Fonts  : */
-
-        font-family: "Montserrat", sans-serif;
-        /* font-optical-sizing: auto; */
-        font-weight: 403;
-        font-style: normal;
-    }
-}
-
-#terminal-games:hover {
-    background-color: black;
-    color: #85DA32;
-    text-align: center;
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-}
-
-#calculator:hover {
-    font-family: "calculator-font", "DotGothic16", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #667665;
-    color: black;
-}
-
-#portfolio:hover {
-    background-color: #CA6869;
-    color: white;
-    font-family: "Josefin Sans",
-        sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+  }
+}
+
+.list {
+  text-align: center;
+  margin: 20px auto;
+
+  #link-heading {
+    background-color: #ca6869;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: x-large;
+    color: white;
+    /* border: 3px solid #202E51; */
+    border-radius: 5px;
+    width: fit-content;
+
+    /* Fonts :  */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .links a {
+    /* margin: 3px ; */
+    padding: 50px;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    /* border: 3px solid #202E51; */
+    color: #202e51;
+    text-decoration: none;
+    width: 150px;
+    flex-grow: 1;
+    margin: 0 15px;
+    font-size: 20px;
+
+    /* Fonts  : */
+
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 403;
+    font-style: normal;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#terminal-games:hover {
+  background-color: black;
+  color: #85da32;
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  animation: fadeIn 0.1s ease-in-out;
+}
+
+#calculator:hover {
+  font-family: "calculator-font", "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #667665;
+  color: black;
+  animation: fadeIn 0.1s ease-in-out;
+}
+
+#portfolio:hover {
+  background-color: #ca6869;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  animation: fadeIn 0.1s ease-in-out;
 }
 
 #mini-games:hover {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    color: white;
-    background-color: #1B1A55;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+  background-color: #1b1a55;
+  animation: fadeIn 0.1s ease-in-out;
 }
 
 @media (max-width: 800px) {
-    .links {
-        flex-direction: column;
-        align-items: center;
-    }
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .links a {
-        padding: 20px;
-        margin-top: 5px;
-    }
+  .links a {
+    padding: 20px;
+    margin-top: 5px;
+  }
 
-    .img-flank {
-        display: none;
-    }
+  .img-flank {
+    display: none;
+  }
 }
 
 /* Button Design Prototyping :  */
